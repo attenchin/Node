@@ -32,7 +32,7 @@ gulp.task('inject', function(){
     
 });
 
-gulp.task('serve'['style','inject'],function() {
+gulp.task('serve',['style','inject'],function() {
    var options = {
        script: 'app.js',
        delayTime: 1,
